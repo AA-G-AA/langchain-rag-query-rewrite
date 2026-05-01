@@ -1,0 +1,23 @@
+# 环境变量
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# 虚拟环境
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# 本地数据
+chroma_db/
+*.db
+
+# 系统文件
+.DS_Store
+Thumbs.db
