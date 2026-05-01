@@ -92,8 +92,8 @@ model_ollama = ChatOllama(
 #todo：配置文件地址
 dotenv.load_dotenv('D:\PythonProject\langchainaitest\lac\.env')#修改你的配置文件地址
 model_agent = init_chat_model(
-    base_url=os.getenv("OPENAI_QW_BASE_URL"),
-    api_key=os.getenv("OPENAI_QW_API_KEY"),
+    base_url=os.getenv("OPENAI_BASE_URL"),
+    api_key=os.getenv("OPENAI_API_KEY"),
     model_provider="openai",
     model="qwen3.5-35b-a3b",
     temperature=0.1,

@@ -23,7 +23,7 @@
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env  # 填入你的 API 信息
+cp .env.example .env  # 填入你的 API 信息,我这里使用千问
 python rag_agent_langchain_query_rewrite.py
 ```
 
@@ -32,3 +32,9 @@ python rag_agent_langchain_query_rewrite.py
 - 首次运行自动写入向量数据库，之后跳过
 - Rerank 模型首次运行自动下载（约1GB）
 - `milvus-lite` 不支持 Windows，改用 ChromaDB
+
+## 运行效果
+
+![demo1](images/demo1.png)
+![demo2](images/demo2.png)
+![demo3](images/demo3.png)
